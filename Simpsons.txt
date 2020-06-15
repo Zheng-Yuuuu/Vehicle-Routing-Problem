@@ -1,0 +1,45 @@
+19
+Homer	1	9:00	11:03	115	391	511	283
+Homer	2	12:00	12:36	511	283	388	279
+Homer	3	14:30	15:01	388	279	399	382
+Homer	4	16:30	17:54	399	382	116	391
+Marge	5	8:00	8:49	687	167	524	199
+Marge	6	10:00	10:48	524	199	383	279
+Marge	7	13:30	13:57	383	279	333	356
+Marge	8	17:00	18:06	333	356	115	391
+Bart	9	9:00	11:01	150	406	531	270
+Bart	10	12:00	12:41	531	270	392	264
+Bart	11	13:30	14:04	392	264	328	359
+Bart	12	17:00	18:03	328	359	123	407
+Lisa	13	8:00	8:50	660	165	496	205
+Lisa	14	10:00	10:39	496	205	381	269
+Lisa	15	14:30	14:58	381	269	396	364
+Lisa	16	16:30	17:48	396	364	140	419
+Maggie	17	9:20	10:17	212	355	384	270
+Maggie	18	14:30	14:53	384	270	405	346
+Maggie	19	16:30	17:53	405	346	130	398
+
+
+vehicle 0: -> node: 5 Marge pickup 08:00 -> node: 14 Lisa pickup 08:05 -> node: 6 Marge take off 08:33 -> node: 15 Lisa take off 08:39 -> node: 15 Lisa pickup 10:00 -> node: 6 Marge pickup 10:05 -> node: 16 Lisa take off 10:37 -> node: 7 Marge take off 10:39 -> node: 10 Bart pickup 12:00 -> node: 1 Homer pickup 12:04 -> node: 11 Bart take off 12:28 -> node: 2 Homer take off 12:31 -> node: 11 Bart pickup 13:30 -> node: 7 Marge pickup 13:33 -> node: 8 Marge take off 13:51 -> node: 12 Bart take off 13:53 -> node: 20 Maggie pickup 14:30 -> node: 2 Homer pickup 14:31 -> node: 16 Lisa pickup 14:34 -> node: 21 Maggie take off 14:50 -> node: 17 Lisa take off 14:54 -> node: 3 Homer take off 14:58 -> node: 21 Maggie pickup 16:30 -> node: 17 Lisa pickup 16:34 -> node: 3 Homer pickup 16:37 -> node: 18 Lisa take off 17:30 -> node: 22 Maggie take off 17:34 -> node: 4 Homer take off 17:37 
+vehicle 1: -> node: 9 Bart pickup 09:00 -> node: 0 Homer pickup 09:07 -> node: 19 Maggie pickup 09:28 -> node: 20 Maggie take off 10:06 -> node: 1 Homer take off 10:32 -> node: 10 Bart take off 10:36 -> node: 8 Marge pickup 17:00 -> node: 12 Bart pickup 17:01 -> node: 13 Bart take off 17:43 -> node: 0 Marge take off 17:46 
+
+
+[0, 0, 1, 9.0, 11.05] 0
+[0, 1, 2, 12.0, 12.6] 1
+[0, 2, 3, 14.5, 15.016666666666667] 2
+[0, 3, 4, 16.5, 17.9] 3
+[1, 5, 6, 8.0, 8.816666666666666] 4
+[1, 6, 7, 10.0, 10.8] 5
+[1, 7, 8, 13.5, 13.95] 6
+[1, 8, 0, 17.0, 18.1] 7
+[2, 9, 10, 9.0, 11.016666666666667] 8 
+[2, 10, 11, 12.0, 12.683333333333334] 9
+[2, 11, 12, 13.5, 14.066666666666666] 10
+[2, 12, 13, 17.0, 18.05] 11
+[3, 14, 15, 8.0, 8.833333333333334] 12
+[3, 15, 16, 10.0, 10.65] 13
+[3, 16, 17, 14.5, 14.966666666666667] 14
+[3, 17, 18, 16.5, 17.8] 15
+[4, 19, 20, 9.333333333333334, 10.283333333333333] 16
+[4, 20, 21, 14.5, 14.883333333333333] 17
+[4, 21, 22, 16.5, 17.883333333333333] 18
